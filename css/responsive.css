@@ -24,7 +24,7 @@ html {
     .one,
     .two,
     .three {
-        background-color: #000;
+        background-color: var(--text-alt);
         height: 5px;
         width: 100%;
         margin: 6px auto;
