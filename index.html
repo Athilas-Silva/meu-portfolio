@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/darkMode.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <script src="https://kit.fontawesome.com/6ced12f15b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="home">
         <div class="container">
-            <img src="https://user-images.githubusercontent.com/71888055/126050357-5f6f0e99-e176-4f3e-b755-8f08d28a6317.jpg" alt="Foto de perfil">
+            <img src="https://user-images.githubusercontent.com/71888055/126050357-5f6f0e99-e176-4f3e-b755-8f08d28a6317.jpg" alt="Foto de perfil" id="photo">
             <div class="menu-section">
                 <div class="menu-toggle">
                     <div class="one"></div>
@@ -49,6 +50,13 @@
             </div>
         </div>
     </header>
+
+    <!-- The Modal -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-photo">
+        <div id="description"></div>
+    </div>
 
     <section class="presentation" id="about">
         <div class="container">
@@ -382,5 +390,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./js/script.js"></script>
     <script src="./js/darkMode.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
