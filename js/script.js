@@ -5,12 +5,18 @@ const menuSection = document.querySelector(".menu-section")
 const menuToggle = menuSection.querySelector(".menu-toggle")
 
 menuToggle.addEventListener("click", () => {
-
     document.body.style.overflow = show ? "hidden" : "initial"
-
     menuSection.classList.toggle("on", show)
     show = !show;
 })
+
+const links = document.querySelectorAll("nav ul li a")
+
+for(const link of links){
+    link.addEventListener("click", () => {
+        menuSection.classList.remove("on")
+    })
+}
 
 // ScrollReveal: Mostrando elementos no scroll da pagina
 const scrollReveal = ScrollReveal({
