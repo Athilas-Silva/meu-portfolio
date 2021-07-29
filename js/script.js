@@ -1,15 +1,14 @@
 // MENU
-let show = true; 
-
 const menuSection = document.querySelector(".menu-section")
-const menuToggle = menuSection.querySelector(".menu-toggle")
+const menuToggle = document.querySelectorAll(".menu-toggle")
 
-menuToggle.addEventListener("click", () => {
-    document.body.style.overflow = show ? "hidden" : "initial"
-    menuSection.classList.toggle("on", show)
-    show = !show;
-})
+for(const element of menuToggle){
+    element.addEventListener("click", () => {
+        menuSection.classList.toggle("on")
+    })
+}
 
+//Removendo o menu ao clicar em um dos links
 const links = document.querySelectorAll("nav ul li a")
 
 for(const link of links){
