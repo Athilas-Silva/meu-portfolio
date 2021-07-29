@@ -19,7 +19,7 @@ Meu portfolio para divulgação e demonstração dos meus projetos pessoais, aul
 
 ##
 
-### ☁️ Link do projeto hospedado na [Netlifly](https://app.netlify.com/) ☁️
+### ☁️ Link do projeto hospedado na [Netlify](https://app.netlify.com/) ☁️
 
 <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
 
