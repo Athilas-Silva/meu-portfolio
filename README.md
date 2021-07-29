@@ -14,7 +14,7 @@ Meu portfolio para divulgação e demonstração dos meus projetos pessoais, aul
 * [GoogleFonts](https://fonts.google.com/)
 * [FontAwesome](https://fontawesome.com/)
 * E algumas informações da [W3Schools](https://www.w3schools.com/) como:
-1. [Modal](https://www.w3schools.com/css/css3_mediaqueries.asp)
+1. [Modal](https://www.w3schools.com/w3css/w3css_modal.asp)
 2. [Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
 
 ##
