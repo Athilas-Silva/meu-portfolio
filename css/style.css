@@ -198,6 +198,11 @@ main h3{
     transform: translateY(-7px);
 }
 
+.card h2{
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
 .card p{
     color: var(--text-card);
 }
